@@ -1,0 +1,822 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Sample - Corporate Business Bootstrap4 HTML5 Template
+    Template URI: site.com
+    Description: Sample - Corporate Business Bootstrap4 HTML5 Template
+    Author: BasicTheme
+    Author URI: site.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    01. Theme default CSS
+	02. Header
+    03. Hero
+	04. Footer
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+
+/*  01. Theme default CSS
+/*----------------------------------------*/
+
+/* 1. Theme default css */
+
+@font-face {
+    font-family: SFProText-Regular;
+    src: url(../fonts/FontsFree-Net-SFProText-Regular.ttf);
+}
+
+@font-face {
+    font-family: SFProDisplayMedium;
+    src: url(../fonts/FontsFree-Net-SFProDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family: SFProDisplayBold;
+    src: url(../fonts/FontsFree-Net-SFProDisplay-Bold.ttf);
+}
+
+body {
+    font-family: SFProText-Regular;
+    font-size: 14px;
+    background-color: #fafafa;
+}
+
+.img,
+img {
+    max-width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+a,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+button {
+    cursor: pointer;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a,
+button {
+    color: inherit;
+    outline: medium none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: SFProDisplayBold;
+    font-weight: normal;
+    color: #0D1216;
+    margin-top: 0px;
+    text-transform: normal;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 14px;
+    color: #0d1216b0 !important;
+    margin-bottom: 15px;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    max-width: 920px;
+}
+
+/* default-css END ================================== */
+
+.header-area {
+    padding: 15px 0;
+    background: #000;
+    position: fixed;
+    /*  width: 1200px; */
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.header-area.sticky {
+    position: fixed;
+}
+
+.hero-area .hero-wrepper a.download i {
+    color: #000;
+    margin-right: 5px;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+.header-area .header-logo a {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+a.theme-btn {
+    padding: 0;
+    background: #0067B1;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 10px;
+    width: 112px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-family: SFProDisplayBold
+}
+
+.header-area .header-logo a {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.hero-area .hero-wrepper h1 {
+    font-size: 42px;
+}
+
+.hero-area {
+    padding: 60px 0;
+    padding-top: 160px;
+    background: #EAEBF0;
+}
+
+.hero-area .hero-wrepper h1 {
+    font-size: 42px;
+}
+
+.hero-area .hero-wrepper a.download svg {
+    color: #000;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    margin-right: 5px;
+}
+
+.hero-area .hero-wrepper p {
+    font-size: 18px;
+    color: #0d1216;
+}
+
+.hero-area .hero-wrepper p.py-text {
+    margin-top: 25px;
+    display: block;
+}
+
+.hero-area .hero-wrepper a.download {
+    display: block;
+    margin: 15px 20px;
+    font-size: 14px;
+    color: #0000009c;
+}
+
+.hero-area .hero-wrepper a.theme-btn {
+    padding: 0;
+    height: 56px;
+    width: 166px;
+    text-align: center;
+    line-height: 56px;
+    font-size: 21px;
+}
+
+.hero-area .hero-wrepper a.download svg {
+    color: #000;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    margin-right: 5px;
+}
+
+.video-area .first-img {
+    width: 100%;
+}
+
+.video-area .first-img img {
+    width: 100%;
+    height: 217px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.video-area .first-img {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.video-area .first-img a.mfp-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 22px;
+    color: #D8D8D8;
+}
+
+.video-area .thumbnail-img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.video-area .thumbnail-img img {
+    width: 100%;
+    height: 70px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.video-area .col-lg-4.mr-extra {
+    margin: 0;
+    padding: 0;
+}
+
+.video-area .video-text p {
+    font-size: 16px;
+    color: #0D1216;
+    line-height: 20px;
+}
+
+/* hero-area css END */
+
+.Accuracy-area {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.Accuracy-img li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.Accuracy-img li p {
+    font-size: 14px;
+}
+
+.Accuracy-img {
+    margin-top: 70px;
+}
+
+.Accuracy-wrepper h4 {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.Accuracy-wrepper p {
+    font-size: 16px;
+    color: #273642;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.Accuracy-wrepper a.mfp-btn {
+    font-size: 16px;
+    line-height: 21px;
+    color: #273642;
+    display: block;
+}
+
+.Accuracy-wrepper img {
+    margin-bottom: 30px;
+}
+
+.Accuracy-wrepper img {
+    margin-bottom: 30px;
+}
+
+/* Accuracy-area css END */
+
+.installation-area {
+    background: #F2F7FB;
+    padding: 100px 0;
+}
+
+.installation-area .installation-wrepper h3 {
+    font-size: 36px;
+    color: #0D1216;
+    line-height: 28px;
+}
+
+.installation-area .installation-wrepper h3 span {
+    font-size: 18px;
+    color: #273642;
+    margin: 15px 0;
+    margin-bottom: 30px;
+    font-family: SFProDisplayMedium;
+}
+
+.installation-area .installation-wrepper li {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.installation-area .installation-wrepper li h4 {
+    position: relative;
+    padding-left: 40px;
+}
+
+.installation-area .installation-wrepper li h4 span {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    color: #273642;
+    font-family: SFProDisplayRagular;
+    line-height: 21px;
+}
+
+.installation-area .installation-wrepper li h4 svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.installation-area .installation-wrepper li a.theme-btn {
+    width: 153px;
+    text-align: center;
+    height: 56px;
+    line-height: 56px;
+    padding: 0;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.more-description {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.more-description .detailse-box img {
+    margin-bottom: 15px;
+}
+
+.more-description .detailse-box p {
+    font-size: 16px;
+    line-height: 21px;
+    color: #000 !important;
+    font-family: SFProDisplayMedium;
+}
+
+.installation-area .installation-wrepper li h4 img {
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+/* MORE DETAILSE END */
+
+.footer-area {
+    background: #f3f5f7;
+    padding: 40px 0px;
+}
+
+.footer-area .dfooter-wrepper .socias a {
+    margin: 0 5px;
+}
+
+.footer-area .dfooter-wrepper .footer-content {
+    padding: 30px 0;
+}
+
+.footer-area .dfooter-wrepper .footer-content ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 12px;
+    font-family: SFProDisplayMedium;
+    color: #575757;
+}
+
+.footer-area .dfooter-wrepper p.copy-right-text {
+    font-size: 12px;
+    font-family: SFProDisplayMedium;
+    color: #575757 !important;
+    margin: 0;
+}
+
+/*footer-area css END  */
+
+.site-wrep {
+    /* width: 1200px; */
+    margin: auto;
+    overflow-y: hidden !important;
+    display: block;
+}
+
+.main-video-blk {
+    margin-bottom: 10px;
+}
+
+/*artboard-page-css-strat*/
+
+/*hero-area*/
+
+.hero-containt span {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.hero-containt h2 {
+    font-size: 42px;
+    line-height: 55px;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.hero-containt p {
+    color: #fff !important;
+    font-size: 18px;
+    line-height: 32px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.hero-containt a {
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    padding: 20px 45px;
+    border-radius: 14px;
+    display: inline-block;
+}
+
+.hero-area.artboard-hero {
+    padding-top: 160px;
+    padding-bottom: 140px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-area.artboard-hero::before {
+    position: absolute;
+    content: "";
+    background: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .2;
+}
+
+/*price-area*/
+
+.price-area {
+    background: #F8F9FA;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.price-containt h2 {
+    font-size: 36px;
+    color: #0D1216;
+    margin-bottom: 15px;
+    font-family: "SFProDisplayBold";
+    letter-spacing: 1px;
+}
+
+.price-containt p {
+    font-size: 22px;
+    color: #0D1216 !important;
+    margin-bottom: 5px;
+}
+
+.price-containt span {
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.price-link a {
+    font-size: 20px;
+    color: #0067B1;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.price-img {
+    margin-bottom: 20px;
+}
+
+/*market-area-css*/
+
+.market-containt p {
+    font-size: 20px;
+    color: #0D1216 !important;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.market-containt a {
+    color: #0067B1;
+    font-size: 20px;
+}
+
+.market-area {
+    background: #fff;
+    padding-top: 80px;
+    padding-bottom: 130px;
+    border-bottom: 1px solid#F3F3F3;
+}
+
+.help-line-area {
+    background: #fff;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.help-containt h3 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.help-containt p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 22px;
+}
+
+.help-img {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.help-containt a {
+    color: #0067B1 !important;
+    font-size: 16px;
+}
+
+.header-menu ul {
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    margin: 0;
+}
+
+.header-menu ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.header-menu ul li a {
+    font-size: 16px;
+}
+
+/*modal-poppup*/
+
+.modal-dialog {
+    max-width: 556px;
+}
+
+.modal-header h5 {
+    font-size: 34px;
+    font-family: SFProDisplayBold;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-header {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-content {
+    border-radius: 0;
+    padding-top: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.modal-header .close {
+    font-size: 34px;
+    position: absolute;
+    top: 0;
+    right: 7px;
+    color: #B2B2B2;
+}
+
+.answer-optons label {
+    background: #FFFFFF;
+    border: 2px solid #DDDEE8;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.005em;
+    color: #333555;
+    height: 85px;
+    display: block;
+    padding: 20px 25px;
+    position: relative;
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: 12px;
+}
+
+.answer-optons label.active {
+    background: #fff;
+    border: 2px solid #0067B1;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px rgba(51, 53, 85, 0.15);
+}
+
+.answer-optons label input {
+    position: absolute;
+    opacity: 0;
+    max-width: 0;
+    max-height: 0;
+    visibility: hidden;
+}
+
+.answer-optons label.active .mcq-option {
+    background: #fff;
+    border: 1px solid #DDDEE8;
+    color: #fff;
+}
+
+.answer-optons label .mcq-option {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* line-height: 29px; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.005em;
+    color: #333555;
+    margin-right: 24px;
+    position: relative;
+    margin-top: 10px;
+    border: 1px solid #E1E2EB;
+}
+
+.answer-optons label.active .mcq-option::after {
+    position: absolute;
+    content: "";
+    background: #0067B1;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.answer-optons label span {
+    font-size: 22px;
+    display: block;
+}
+
+.cheak-radio {
+    display: flex;
+    height: 24px;
+}
+
+.answer-optons label p {
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.answer-optons label.active .icon-check {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #4B4B4B;
+    display: block !important;
+}
+
+.icon-check {
+    display: none !important;
+}
+
+.modal-header h5 span {
+    display: block;
+    font-size: 18px;
+    font-family: SFProText-Regular;
+    margin-bottom: 20px;
+}
