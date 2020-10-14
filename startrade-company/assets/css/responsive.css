@@ -1,0 +1,239 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-area {
+        width: 992px;
+    }
+    .site-wrep {
+        width: 992px;
+    }
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .video-area {
+        margin-top: 50px;
+    }
+    .detailse-box {
+        margin-bottom: 50px;
+    }
+    .header-area {
+        width: 100%;
+    }
+    .site-wrep {
+        width: 100%;
+    }
+    .price-img img {
+        max-width: 400px;
+    }
+    .market-area {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .market-containt p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .market-containt a {
+        font-size: 18px;
+    }
+    .help-img {
+        height: auto;
+        display: block;
+        margin-bottom: 55px;
+    }
+    .help-line-area {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    .help-containt {
+        padding: 0 80px;
+    }
+    .modal-header h5 {
+        font-size: 30px;
+    }
+    .modal-header h5 span {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .answer-optons label span {
+        font-size: 20px;
+    }
+    .answer-optons label p {
+        font-size: 14px;
+    }
+    .modal-dialog {
+        max-width: 509px;
+    }
+}
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    .video-area {
+        margin-top: 50px;
+    }
+    .detailse-box {
+        margin-bottom: 50px;
+    }
+    .installation-area {
+        padding: 50px 0;
+    }
+    .hero-area .hero-wrepper h1 {
+        font-size: 28px;
+    }
+    .hero-area .hero-wrepper p {
+        font-size: 14px;
+    }
+    .hero-area .hero-wrepper a.theme-btn {
+        height: 40px;
+        width: 140px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .Accuracy-img li img {
+        width: 37px;
+    }
+    .Accuracy-wrepper h4 {
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .Accuracy-wrepper p {
+        font-size: 13px;
+        line-height: 16px;
+        margin-bottom: 30px;
+    }
+    .installation-area .installation-wrepper li a.theme-btn {
+        width: 150px;
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
+        padding: 0;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .more-description .detailse-box img {
+        margin-bottom: 10px;
+        width: 40px;
+    }
+    .more-description {
+        padding-bottom: 0px;
+    }
+    .header-area {
+        width: 100%;
+    }
+    .site-wrep {
+        width: 100%;
+    }
+    .market-area {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .market-containt p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .market-containt a {
+        font-size: 12px;
+    }
+    .help-img {
+        height: auto;
+        display: block;
+        margin-bottom: 55px;
+    }
+    .help-line-area {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+    .hero-containt h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .hero-containt p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .hero-containt a {
+        font-size: 16px;
+        padding: 14px 30px;
+    }
+    .price-containt h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .price-containt p {
+        font-size: 13px;
+    }
+    .price-containt span {
+        font-size: 12px;
+    }
+    .market-logo img {
+        max-width: 210px;
+    }
+    .market-coma-img img {
+        max-width: 26px;
+    }
+    .help-containt h3 {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+    .help-containt p {
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 15px;
+    }
+    .help-containt a {
+        font-size: 12px;
+    }
+    .modal-header h5 {
+        font-size: 20px;
+    }
+    .modal-header h5 span {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .answer-optons label {
+        font-size: 16px;
+        height: 67px;
+        padding: 9px 25px;
+        margin-bottom: 9px;
+    }
+    .answer-optons label {
+        font-size: 16px;
+    }
+    .answer-optons label .mcq-option {
+        width: 20px;
+        height: 20px;
+        font-size: 18px;
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+    .answer-optons label span {
+        font-size: 12px;
+    }
+    .answer-optons label p {
+        font-size: 11px;
+        padding-left: 37px;
+    }
+    .modal-header .close {
+        font-size: 26px;
+    }
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+}
